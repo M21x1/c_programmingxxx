@@ -1,0 +1,7 @@
+** Go to CMD(command promt), then run
+
+gcc -g namefile.c   /* This will create an a.exe file.
+
+then type in, 
+
+a.exe
