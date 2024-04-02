@@ -6,7 +6,7 @@ int main(){
     printf("Enter some character. Enter $ to exit...\n");
     while(c != '$')
     {
-        c = getchar(); /* fgets it gets a line, getchar gets just a char */
+        c = getchar (); /* fgets it gets a line, getchar gets just a char */
         printf("\n Entered character is: ");
         putchar(c);
         printf("\n");
