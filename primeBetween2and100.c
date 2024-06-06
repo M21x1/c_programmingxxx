@@ -4,7 +4,7 @@
 int main(void){
     bool prime = true;
 
-    // Start at 2 and go until 0
+    // Start at 2 and go until 100
     for (int num = 2; num <= 100; num++){
         prime = true; //     Assume the number is prime
 
