@@ -10,7 +10,7 @@ int main(void){
 
         // Test if the candidate number is a prime
         for (int divisor = 2; divisor <= 10; divisor++)
-            if (((num % divisor) == 0) && num != divisor)
+            if (((num % divisor) == 0) && num != divisor)   // we filter even numbers and make sure dividend and divisor are different
                 prime = false;
         
         if (prime)
